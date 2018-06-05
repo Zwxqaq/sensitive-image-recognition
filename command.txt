@@ -1,0 +1,11 @@
+把test_image.py放到之前给你的five_classes的文件夹里
+
+CUDA_VISIBLE_DEVICES=0  python test_image.py --graph ./output_graph.pb  --labels ./output_labels.txt  --output_layer=final_result --input_height=224 --input_width=224 --input_mean=128 --input_std=128 --image ./image_multiclass/gun/9.jpg
+
+
+
+
+
+
+
+
